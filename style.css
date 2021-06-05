@@ -1,0 +1,169 @@
+.btn {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21, 79px;
+
+  color: #ffffff;
+
+  background: #000000;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #c29974;
+}
+
+.btn:active {
+  background-color: #cfaf91;
+}
+
+.poster {
+  background-image: url(img/poster.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.poster-main {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 73, 14px;
+
+  color: rgba(30, 6, 6, 0.05);
+}
+
+.poster-title {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 110%;
+
+  color: #1e0606;
+}
+
+.italic {
+  font-family: "Crimson Text", serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #1e0606;
+}
+
+.poster-text {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.products-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 46px;
+
+  color: #1e0606;
+}
+
+.product-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 31, 69px;
+
+  color: #ffffff;
+}
+
+.products-text {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1e0606;
+}
+
+.delivery-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 46px;
+
+  color: #1e0606;
+}
+
+.italic-delivery-weight {
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 32px;
+
+  color: #1e0606;
+}
+
+.italic-delivery {
+  font-family: "Crimson Text", serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 32px;
+
+  color: #1e0606;
+}
+
+.delivery-text {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1e0606;
+}
+
+.about-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 46px;
+
+  color: #1e0606;
+}
+
+.about-text {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1e0606;
+}
+
+.contacts-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 46px;
+
+  color: #1e0606;
+}
+
+.contacts-text {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1e0606;
+}
