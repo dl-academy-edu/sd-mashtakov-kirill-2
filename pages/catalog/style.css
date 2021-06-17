@@ -1,0 +1,85 @@
+/* CATALOG */
+
+
+/* menu */
+
+.products-content {
+  padding-top: 60px;
+}
+
+.products-title {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.menu-list {
+  display: flex;
+
+  margin: 0;
+  padding-inline-start: 0px;
+}
+
+.menu-item {
+  padding-right: 20px;
+}
+
+.menu-link {
+  font-family: "Crimson Text", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #1E0606;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+
+/* catalog */
+
+
+.products-catalog-left {
+  margin-top: 50px;
+}
+
+.products-catalog-right {
+  margin-top: 23px;
+  margin-left: 200px;
+}
+
+.products-description {
+  margin-top: 55px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+
+.products-list {
+  display: flex;
+
+  margin: 0;
+  padding-inline-start: 0px;
+}
+
+.product-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: #ffffff;
+}
+
+.description-title {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.description-text {
+  margin: 0;
+  padding-bottom: 15px;
+  padding-right: 300px;
+}
