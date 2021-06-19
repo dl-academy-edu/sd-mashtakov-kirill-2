@@ -1,0 +1,91 @@
+/* CONTACT US */
+
+/* menu */
+
+.contact-us {
+  margin: 60px 0;
+}
+
+.contact-us-title {
+  margin: 0;
+  padding-bottom: 15px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 48.76px;
+}
+
+.menu-list {
+  display: flex;
+
+  margin: 0;
+  padding-inline-start: 0px;
+}
+
+.menu-item {
+  padding-right: 20px;
+}
+
+.menu-link {
+  font-family: "Crimson Text", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #1e0606;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+/* contact us */
+
+.contact-us-content {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 50px
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-text {
+  margin: 0;
+  padding-bottom: 20px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1e0606;
+
+  width: 380px;
+}
+
+.description-mark-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 34px;
+  text-transform: uppercase;
+
+  color: #c29974;
+
+  width: 380px;
+
+  margin: 0;
+}

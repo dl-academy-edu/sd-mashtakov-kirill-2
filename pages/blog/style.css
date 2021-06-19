@@ -2,8 +2,8 @@
 
 /* menu */
 
-.blog-menu {
-  padding-top: 60px;
+.blog {
+  margin: 60px 0;
 }
 
 .blog-title {
@@ -98,13 +98,17 @@
   color: #1e0606;
 }
 
-.articles-number {
+.articles-page {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin: auto;
+
+  max-width: 1174px;
 }
 
-.articles-number-list {
+.articles-page-list {
   display: flex;
   justify-content: space-between;
 
@@ -114,7 +118,7 @@
   padding-inline-start: 0;
 }
 
-.article-number-link {
+.article-page-link {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-style: normal;
