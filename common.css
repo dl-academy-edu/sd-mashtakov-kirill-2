@@ -221,16 +221,34 @@ ul {
 
 .rating-list {
   display: flex;
+  width: 110px;
+}
 
-  padding-inline-start: 0px;
+.rating-list input {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
 
+.rating-list input + label {
+  font-size: 0;
+  display: block;
+  width: 22px;
+  height: 21px;
+  cursor: pointer;
+  background-image: url(img/star.png);
 }
 
 .rating-text {
   margin-right: 25px;
 }
 
-.rating-link {
+.rating-item {
   margin-right: 3px;
 }
 

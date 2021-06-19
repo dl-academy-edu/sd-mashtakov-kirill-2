@@ -1,0 +1,161 @@
+/* TOYS */
+
+
+/* menu */
+
+.toys-content {
+  padding-top: 60px;
+}
+
+.toys-title {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.main-menu-list {
+  display: flex;
+
+  margin: 0;
+  padding-inline-start: 0px;
+}
+
+.main-menu-item {
+  padding-right: 20px;
+}
+
+.main-menu-link {
+  font-family: "Crimson Text", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #1E0606;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+/* filter */
+
+.toys-filter {
+  background: rgba(125, 151, 218, 0.2);
+
+  /* margin: auto;
+  min-width: 1180px; */
+  margin-top: 50px;
+  padding: 42px 0;
+}
+
+.form-range {
+  margin-left: 110px;
+
+  width: 207px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.input-title {
+  font-family: inherit;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1e0606;
+
+  margin-bottom: 25px;
+}
+
+.form-text {
+  font-family: inherit;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1e0606;
+}
+
+
+.range-cost {
+  margin-top: 16px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-range {
+  margin: 0;
+}
+
+input[type=range]
+{
+  -webkit-appearance: none;
+  width: 188px;
+  height: 4px;
+  background-color: #ccc;
+} 
+
+input[type=range]::-webkit-slider-thumb { 
+  -webkit-appearance: none;
+  background-color: #fff;
+
+  cursor: pointer;
+
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: 8.35px solid #C29974;
+}
+
+.form-filter {
+  display: flex;
+}
+
+.form-checkbox {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 94px;
+}
+
+.form-radio {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 124px;
+}
+
+.form-interval {
+  margin-left: 70px;
+}
+
+.form-submit {
+  margin-top: 15px;
+  margin-left: 60px;
+}
+
+.label-checkbox {
+  padding-bottom: 15px;
+}
+
+.label-radio {
+  padding-bottom: 10px;
+}
+
+.btn-block {
+  margin-top: 15px;
+
+  display: flex;
+}
+
+.btn-interval {
+  border: 0;
+  background: #ffffff;
+
+  width: 80px;
+  height: 35px;
+}
