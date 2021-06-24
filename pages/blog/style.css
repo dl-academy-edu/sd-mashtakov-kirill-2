@@ -87,6 +87,14 @@
   color: #1e0606;
 }
 
+.article-link:hover {
+  text-decoration-line: underline;
+}
+
+.article-link:active {
+  text-decoration-line: underline;
+}
+
 .article-text {
   margin: 0;
 
@@ -126,6 +134,13 @@
   line-height: 19.5px;
 
   color: #000000;
+}
+.article-page-link:hover {
+  opacity: 0.5
+}
+
+.article-page-link:active {
+  opacity: 0.5
 }
 
 .current-link {
