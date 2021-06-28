@@ -35,7 +35,7 @@
 	<main>
 		<section class="toys">
 			<div class="container">
-				<div class="toys-content">
+				<div class="toys-menu">
 					<h1 class="toys-title">TOY FOR KIDS</h1>
 						<ul class="main-menu-list">
 							<li class="main-menu-item"><a class="main-menu-link" href="../../index.html">Home</a></li>
@@ -47,6 +47,7 @@
 				</div>
 			</div>
 			<div class="toys-filter">
+				<div class="container">
 					<form>
 						<div class="form-filter">
 							<div class="form-range">
@@ -61,36 +62,60 @@
 							</div>
 							<div class="form-checkbox">
 								<span class="input-title">Color</span>
-								<label class="label-checkbox">
-									<input type="checkbox">
+								<label class="checkbox-wrapper">
+									<input class="checkbox visually-hidden" type="checkbox" name="black" value="black" checked>
+									<span class="checkbox_checker"></span>
 									<span class="form-text">Black</span>
 								</label>
-								<label class="label-checkbox">
-									<input type="checkbox">
+								<label class="checkbox-wrapper">
+									<input class="checkbox visually-hidden" type="checkbox" name="blue" value="blue">
+									<span class="checkbox_checker"></span>
 									<span class="form-text">Blue</span>
 								</label>
-								<label class="label-checkbox">
-									<input type="checkbox">
+								<label class="checkbox-wrapper">
+									<input class="checkbox visually-hidden" type="checkbox" name="green" value="green">
+									<span class="checkbox_checker"></span>
 									<span class="form-text">Green</span>
 								</label>
-								<label class="label-checkbox">
-									<input type="checkbox">
+								<label class="checkbox-wrapper">
+									<input class="checkbox visually-hidden" type="checkbox" name="white" value="white">
+									<span class="checkbox_checker"></span>
 									<span class="form-text">White</span>
 								</label>
 							</div>
 							<div class="form-radio">
 								<span class="input-title">Delivery</span>
-								<label class="label-radio">
-									<input type="radio">
+								<label class="radio-wrapper">
+									<input class="radio visually-hidden" type="radio" name="shiping" value="Free shiping" checked>
+									<span class="radio_checker"></span>
 									<span class="form-text">Free shiping</span>
 								</label>
-								<label class="label-radio">
-									<input type="radio">
+								<label class="radio-wrapper">
+									<input class="radio visually-hidden" type="radio" name="shiping" value="Free shiping">
+									<span class="radio_checker"></span>
 									<span class="form-text">Fast shiping</span>
 								</label>
 							</div>
-							<div class="form-interval">
-								<span class="input-title">Amount</span>
+							<div class="form-amount">
+								<span class="input-title">Delivery</span>
+								<div class="amount-item">
+									<label class="amount-wrapper">
+										<input class="radio visually-hidden" type="radio" name="amount" value="0-5" checked>
+										<span class="amount_checker">0-5</span>
+									</label>
+									<label class="amount-wrapper">
+										<input class="radio visually-hidden" type="radio" name="amount" value="10-20">
+										<span class="amount_checker">10-20</span>
+									</label>
+									<label class="amount-wrapper">
+										<input class="radio visually-hidden" type="radio" name="amount" value="20-50">
+										<span class="amount_checker">20-50</span>
+									</label>
+								</div>
+								
+							</div>
+							<!-- <div class="form-amount">
+								<span class="input-title-amount">Amount</span>
 								<div class="btn-block">
 									<label class="label-interval">
 										<button class="btn-interval">0-5</button>
@@ -98,56 +123,83 @@
 										<button class="btn-interval">20-50</button>
 									</label>
 								</div>
-							</div>
+							</div> -->
 							<div class="form-submit">
 								<button class="btn" type="submit">APPLY</button>
 							</div>
 						</div>
 					</form>
+				</div>
 			</div>
-			<div class="container"></div>
-				<div class="toys-product">
-					<ul class="toys-product-list">
-						<li class="toys-product-item">
-							<a class="toys-product-link" href="#"><img src="../../img/SHARKY_BEAN_BAG_CHAIR_COVER.png" alt="SHARKY BEAN BAG CHAIR COVER"></a>
+			<div class="container">
+				<div class="toys-content">
+					<div class="toys-product">
+						<div class="toys-product-item">
+							<div class="img-block back-1">
+								<div class="link-block">
+									<a class="toys-description-link" href="#">LEARN MORE</a>
+								</div>
+							</div>
 							<p class="toys-product-name">SHARKY BEAN BAG CHAIR COVER</p>
 							<p class="toys-product-price">$60.00 USD</p>
-						</li>
-						<li class="toys-product-item">
-							<a class="toys-product-link" href="#"><img src="../../img/BRASS_DECO_FRAMES.png" alt="BRASS DECO FRAMES"></a>
+						</div>
+						<div class="toys-product-item">
+							<div class="img-block back-2">
+								<div class="link-block">
+									<a class="toys-description-link" href="#">LEARN MORE</a>
+								</div>
+							</div>
 							<p class="toys-product-name">BRASS DECO FRAMES</p>
 							<p class="toys-product-price">$66.00 USD</p>
-						</li>
-						<li class="toys-product-item">
-							<a class="toys-product-link" href="#"><img src="../../img/CIBO_FULL_APRON.png" alt="CIBO FULL APRON"></a>
+						</div>
+						<div class="toys-product-item">
+							<div class="img-block back-3">
+								<div class="link-block">
+									<a class="toys-description-link" href="#">LEARN MORE</a>
+								</div>
+							</div>
 							<p class="toys-product-name">CIBO FULL APRON</p>
 							<p class="toys-product-price">$60.00 USD</p>
-						</li>
-						<li class="toys-product-item">
-							<a class="toys-product-link" href="#"><img src="../../img/GATCHA_GATCHA_GUMBALL_MACHINE.png" alt="GATCHA GATCHA GUMBALL MACHINE"></a>
+						</div>
+						<div class="toys-product-item">
+							<div class="img-block back-4">
+								<div class="link-block">
+									<a class="toys-description-link" href="#">LEARN MORE</a>
+								</div>
+							</div>
 							<p class="toys-product-name">GATCHA GATCHA GUMBALL MACHINE</p>
 							<p class="toys-product-price">$56.00 USD</p>
-						</li>
-						<li class="toys-product-item">
-							<a class="toys-product-link" href="#"><img src="../../img/CHRISTMAS_ADVENT_SCENTED_CANDLE.png" alt="CHRISTMAS ADVENT SCENTED CANDLE"></a>
+						</div>
+						<div class="toys-product-item">
+							<div class="img-block back-5">
+								<div class="link-block">
+									<a class="toys-description-link" href="#">LEARN MORE</a>
+								</div>
+							</div>
 							<p class="toys-product-name">CHRISTMAS ADVENT SCENTED CANDLE</p>
 							<p class="toys-product-price">$29.00 USD</p>
-						</li>
-						<li class="toys-product-item">
-							<a class="toys-product-link" href="#"><img src="../../img/TANGLE_SPINNING_TEA_LIGHT.png" alt="TANGLE SPINNING TEA LIGHT"></a>
+						</div>
+						<div class="toys-product-item">
+							<div class="img-block back-6">
+								<div class="link-block">
+									<a class="toys-description-link" href="#">LEARN MORE</a>
+								</div>
+							</div>
 							<p class="toys-product-name">TANGLE SPINNING TEA LIGHT</p>
 							<p class="toys-product-price">$56.00 USD</p>
-						</li>
-					</ul>
-				</div>
-				<div class="toys-number">
-					<ul>
-						<li><a class="toys-number-link-current" href="#">1</a></li>
-						<li><a class="toys-number-link" href="#">2</a></li>
-						<li><a class="toys-number-link" href="#">3</a></li>
-						<li><a class="toys-number-link" href="#">4</a></li>
-					</ul>
-				</div>
+						</div>
+					</div>
+					<div class="toys-page">
+						<img class="toys-page-img" src="../../img/vector_left.svg" alt="Vector Left">
+						<ul class="toys-page-list">
+							<li class="toys-page-item"><a class="toys-page-link current-link" href="#">1</a></li>
+							<li class="toys-page-item"><a class="toys-page-link" href="#">2</a></li>
+							<li class="toys-page-item"><a class="toys-page-link" href="#">3</a></li>
+							<li class="toys-page-item"><a class="toys-page-link" href="#">4</a></li>
+						</ul>
+						<img class="toys-page-img" src="../../img/vector_right.svg" alt="Vector Right">
+					</div>
+				</div>				
 			</div>
 		</section>
 	</main>
