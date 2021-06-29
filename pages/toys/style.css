@@ -13,6 +13,7 @@
 
 .main-menu-list {
   display: flex;
+  align-items: center;
 
   margin: 0;
   padding-inline-start: 0px;
@@ -36,6 +37,7 @@
   opacity: 0.5;
 }
 
+
 /* filter */
 
 .toys-filter {
@@ -47,12 +49,9 @@
 
 .form-filter {
   display: flex;
-
-  /* margin-left: 110px; */
 }
 
 .input-title {
-  font-family: inherit;
   font-weight: bold;
   font-style: normal;
   font-size: 16px;
@@ -64,7 +63,6 @@
 }
 
 .input-title-amount {
-  font-family: inherit;
   font-weight: bold;
   font-style: normal;
   font-size: 16px;
@@ -76,7 +74,6 @@
 }
 
 .form-text {
-  /* font-family: inherit; */
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
@@ -105,35 +102,34 @@
 /* range */
 
 .form-range {
-  margin-right: 94px;
-
-  width: 207px;
-
   display: flex;
   flex-direction: column;
-}
 
-.range-cost {
-  margin-top: 16px;
-
-  display: flex;
-  justify-content: space-between;
+  margin-right: 94px;
+  width: 207px;
 }
 
 .input-range {
   margin: 0;
 }
 
+.range-cost {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 16px;
+}
+
 input[type="range"] {
   -webkit-appearance: none;
   width: 188px;
   height: 4px;
-  background-color: #ccc;
+  background-color: #cccccc;
 }
 
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background-color: #fff;
+  background-color: #ffffff;
 
   cursor: pointer;
 
@@ -153,10 +149,10 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .checkbox-wrapper {
-  padding-bottom: 15px;
-
   display: flex;
   align-items: center;
+
+  padding-bottom: 15px;
 }
 
 .checkbox_checker {
@@ -164,14 +160,13 @@ input[type="range"]::-webkit-slider-thumb {
   align-items: center;
   justify-content: center;
 
+  margin-right: 10px;
   width: 19px;
   height: 19px;
 
   border: 2px solid #c29974;
   box-sizing: border-box;
   border-radius: 3px;
-
-  margin-right: 10px;
 }
 
 .checkbox-wrapper input:checked ~ .checkbox_checker::before {
@@ -194,18 +189,10 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .radio-wrapper {
-  padding-bottom: 12px;
-
   display: flex;
   align-items: center;
-}
 
-.form-submit {
-  margin-top: 37px;
-}
-
-.label-radio {
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 
 .radio_checker {
@@ -213,12 +200,13 @@ input[type="range"]::-webkit-slider-thumb {
   align-items: center;
   justify-content: center;
 
+  margin-right: 10px;
   width: 20px;
   height: 20px;
+
   border-radius: 10px;
   border: 2px solid #c29974;
-
-  margin-right: 10px;
+  box-sizing: border-box;
 }
 
 .radio-wrapper input:checked ~ .radio_checker::before {
@@ -241,6 +229,11 @@ input[type="range"]::-webkit-slider-thumb {
   margin-right: 60px;
 }
 
+.amount-item {
+  display: flex;
+  align-items: center;
+}
+
 .amount_checker {
   display: flex;
   align-items: center;
@@ -253,11 +246,6 @@ input[type="range"]::-webkit-slider-thumb {
   background-color: #ffffff;
 
   cursor: pointer;
-}
-
-.amount-item {
-  display: flex;
-  align-items: center;
 }
 
 .amount-wrapper input:checked ~ .amount_checker {
@@ -280,14 +268,12 @@ input[type="range"]::-webkit-slider-thumb {
   border: none;
 }
 
-/* 
-.btn-amount {
-  border: 0;
-  background: #ffffff;
+/* submit */
 
-  width: 80px;
-  height: 35px;
-} */
+.form-submit {
+  margin-top: 37px;
+}
+
 
 /* toys-product */
 
@@ -296,12 +282,12 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .toys-product {
-  height: 1014px;
-
   display: flex;
   justify-content: space-between;
   align-content: space-between;
   flex-wrap: wrap;
+
+  height: 1014px;
 }
 
 .toys-product-item {
@@ -352,26 +338,26 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .img-block:hover .link-block {
-  margin: 0;
-  width: 207px;
-  height: 207px;
-
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin: 0;
+  width: 207px;
+  height: 207px;
 
   background-color: #e5eaf8;
   opacity: 0.9;
 }
 
 .img-block:focus .link-block {
-  margin: 0;
-  width: 207px;
-  height: 207px;
-
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin: 0;
+  width: 207px;
+  height: 207px;
 
   background-color: #e5eaf8;
   opacity: 0.67;
@@ -421,7 +407,6 @@ input[type="range"]::-webkit-slider-thumb {
   align-items: center;
 
   margin-top: 50px;
-
   max-width: 1174px;
 }
 
@@ -429,10 +414,9 @@ input[type="range"]::-webkit-slider-thumb {
   display: flex;
   justify-content: space-between;
 
-  width: 234px;
-
   margin: 0;
   padding-inline-start: 0;
+  width: 234px;
 }
 
 .toys-page-link {
