@@ -15,14 +15,14 @@
 	<header class="header-block">
 		<div class="container">
 			<div class="header-content">
-				<a class="header-img-main" href="index.html`">
+				<a class="header-img-main" href="../../index.html">
 					<img class="header-logo" src="../../img/logo.png" alt="Main logo">
 				</a>
 				<nav class="header-nav">
 					<ul class="header-list">
-							<li class="header-item"><a class="header-link" href="pages/catalog/index.html">BLOG</a></li>
-							<li class="header-item"><a class="header-link" href="pages/contact-us/index.html">CATALOG</a></li>
-							<li class="header-item"><a class="header-link" href="pages/contact-us/index.html">ABOUT US</a></li>
+							<li class="header-item"><a class="header-link" href="../blog/index.html">BLOG</a></li>
+							<li class="header-item"><a class="header-link" href="../catalog/index.html">CATALOG</a></li>
+							<li class="header-item"><a class="header-link" href="../contact-us/index.html">ABOUT US</a></li>
 					</ul>
 				</nav>
 				<a class="header-find" href="#">
@@ -40,9 +40,9 @@
 						<ul class="main-menu-list">
 							<li class="main-menu-item"><a class="main-menu-link" href="../../index.html">Home</a></li>
 							<li class="main-menu-item"><img class="main-menu-img" src="../../img/vector.svg" alt="vector"></li>
-							<li class="main-menu-item"><a class="main-menu-link" href="#">Catalog</a></li>
+							<li class="main-menu-item"><a class="main-menu-link" href="../catalog/index.html">Catalog</a></li>
 							<li class="main-menu-item"><img class="main-menu-img" src="../../img/vector.svg" alt="vector"></li>
-							<li class="main-menu-item"><a class="main-menu-link opacity" href="#">Toys</a></li>
+							<li class="main-menu-item"><a class="main-menu-link opacity" href="../toys/index.html">Toys</a></li>
 						</ul>
 				</div>
 			</div>
@@ -200,8 +200,8 @@
 					<h3 class="footer-title">Navigation</h3>
 					<img class="footer-img" src="../../img/line.png" alt="Short Line">
 					<ul class="footer-list">
-						<li class="footer-item"><a class="footer-link" href="#">About Us</a></li>
-						<li class="footer-item"><a class="footer-link" href="pages/blog/index.html">Blog</a></li>
+						<li class="footer-item"><a class="footer-link" href="../contact-us/index.html">About Us</a></li>
+						<li class="footer-item"><a class="footer-link" href="../blog/index.html">Blog</a></li>
 						<li class="footer-item"><a class="footer-link" href="#">Design Services</a></li>
 						<li class="footer-item"><a class="footer-link" href="#">Featured On</a></li>
 						<li class="footer-item"><a class="footer-link" href="#">2018 Holiday Catalog</a></li>
@@ -212,7 +212,7 @@
 						<h3 class="footer-title">Customer Information</h3>
 						<img class="footer-img" src="../../img/line.png" alt="Short Line">
 						<ul class="footer-list">
-							<li class="footer-item"><a class="footer-link" href="pages/contact-us/index.html">Contact Us</a></li>
+							<li class="footer-item"><a class="footer-link" href="#">Contact Us</a></li>
 							<li class="footer-item"><a class="footer-link" href="#">Sale Exclusions</a></li>
 							<li class="footer-item"><a class="footer-link" href="#">Shipping & Returns</a></li>
 							<li class="footer-item"><a class="footer-link" href="#">Terms & Conditions</a></li>
@@ -293,33 +293,35 @@
 			<div class="form-row">
 				<label class="form-line">
 					<span class="label-control form-text">Name</span>
-					<input class="input input_js" type="text" name="name" placeholder="Ivan Ivanov">
+					<input class="input-form input_js" type="text" name="name" placeholder="Ivan Ivanov">
 				</label>
 			</div>
 			<div class="form-row form-row-margin">
 				<label class="form-col form-padding-right">
 					<span class="label-control form-text">Phone</span>
-					<input class="input" type="text" name="phone">
+					<input class="input-form" type="text" name="phone">
 				</label>
 				<label class="form-col form-padding-left">
 					<span class="label-control form-text">Email</span>
-					<input class="input" type="email" name="email">
+					<input class="input-form" type="email" name="email">
 				</label>
 			</div>
 			<div class="form-row form-row-margin">
 				<label class="form-line">
 					<span class="label-control form-text">Message</span>
-					<textarea class="input" name="message" cols="40" rows="10"></textarea>
+					<textarea class="input-form" name="message" cols="40" rows="10"></textarea>
 				</label>
 			</div>
 			<div class="form-row form-row-margin">
 				<label class="checkbox-wrapper">
-					<input class="checkbox visually-hidden" type="checkbox" name="accept" value="scd" checked>
+					<input class="checkbox visually-hidden" type="checkbox" name="accept" value="scd">
 					<span class="checkbox_checker"></span>
 					<span class="form-text">By clicking on the button, you consent to the processing of your personal data</span>
 				</label>
 			</div>
-			<button class="btn" type="submit">SUBMIT</button>
+			<div class="dis">
+				<button class="btn" type="submit">SUBMIT</button>
+			</div>
 			<button class="close-button btn-close_js" type="button">
 				<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M2.21902 14.6113C1.70029 15.1295 0.893368 15.1295 0.374636 14.6113C0.11527 14.3522 -6.13512e-07 14.0355 -5.9841e-07 13.69C-5.83308e-07 13.3445 0.11527 13.0278 0.374636 12.7687L5.64841 7.5L0.374637 2.23127C0.115271 1.97215 -7.23629e-08 1.65547 -5.72611e-08 1.30998C-4.21593e-08 0.964491 0.115271 0.647806 0.374637 0.388689C0.893369 -0.129545 1.70029 -0.129545 2.21902 0.388689L7.4928 5.65738L12.7666 0.38869C13.2853 -0.129545 14.0922 -0.129545 14.611 0.38869C15.1297 0.906924 15.1297 1.71304 14.611 2.23127L9.33718 7.5L14.611 12.7687C15.1297 13.287 15.1297 14.0931 14.611 14.6113C14.0922 15.1295 13.2853 15.1295 12.7666 14.6113L7.4928 9.34258L2.21902 14.6113Z" fill="white"/>

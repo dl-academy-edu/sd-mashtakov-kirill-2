@@ -73,6 +73,14 @@
   color: #ffffff;
 }
 
+.product-link:hover {
+  text-decoration: underline;
+}
+
+.product-link:active {
+  text-decoration: underline;
+}
+
 .product-description-title {
   margin: 0;
   padding-bottom: 25px;
