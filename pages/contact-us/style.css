@@ -1,0 +1,50 @@
+/* CONTACT US */
+
+/* menu */
+
+.contact-us {
+  margin: 60px 0;
+}
+
+.contact-us-title {
+  margin: 0;
+  padding-bottom: 15px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 48.76px;
+}
+
+.menu-list {
+  display: flex;
+
+  margin: 0;
+  padding-inline-start: 0px;
+}
+
+.menu-item {
+  padding-right: 20px;
+}
+
+.menu-link {
+  font-family: "Crimson Text", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #1e0606;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+.contact-us-content {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 50px
+}

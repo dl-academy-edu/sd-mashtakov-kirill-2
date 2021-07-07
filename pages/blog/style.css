@@ -1,0 +1,148 @@
+/* BLOG */
+
+/* menu */
+
+.blog {
+  margin: 60px 0;
+}
+
+.blog-title {
+  margin: 0;
+  padding-bottom: 15px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 48.76px;
+}
+
+.menu-list {
+  display: flex;
+
+  margin: 0;
+  padding-inline-start: 0px;
+}
+
+.menu-item {
+  padding-right: 20px;
+}
+
+.menu-link {
+  font-family: "Crimson Text", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #1e0606;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+/* articles */
+
+.blog-articles {
+  margin-top: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 380px;
+
+  margin-bottom: 20px;
+}
+
+.article-date {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 7px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #818181;
+}
+
+.article-link {
+  margin: 0;
+  padding-bottom: 15px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #1e0606;
+}
+
+.article-link:hover {
+  text-decoration-line: underline;
+}
+
+.article-link:active {
+  text-decoration-line: underline;
+}
+
+.article-text {
+  margin: 0;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.51px;
+
+  color: #1e0606;
+}
+
+.articles-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: auto;
+
+  max-width: 1174px;
+}
+
+.articles-page-list {
+  display: flex;
+  justify-content: space-between;
+
+  width: 234px;
+
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+.article-page-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19.5px;
+
+  color: #000000;
+}
+.article-page-link:hover {
+  opacity: 0.5
+}
+
+.article-page-link:active {
+  opacity: 0.5
+}
+
+.current-link {
+  color: #c29974;
+}

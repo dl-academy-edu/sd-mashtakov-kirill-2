@@ -1,0 +1,442 @@
+/* TOYS */
+
+/* menu */
+
+.toys-menu {
+  padding-top: 60px;
+}
+
+.toys-title {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.main-menu-list {
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+  padding-inline-start: 0px;
+}
+
+.main-menu-item {
+  padding-right: 20px;
+}
+
+.main-menu-link {
+  font-family: "Crimson Text", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #1e0606;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+
+/* filter */
+
+.toys-filter {
+  margin-top: 50px;
+  padding: 42px 0;
+
+  background: rgba(125, 151, 218, 0.2);
+}
+
+.form-filter {
+  display: flex;
+}
+
+.input-title {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1e0606;
+
+  margin-bottom: 16px;
+}
+
+.input-title-amount {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1e0606;
+
+  margin-bottom: 15px;
+}
+
+.form-text {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1e0606;
+}
+
+.form-text:hover {
+  text-decoration: underline;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: 20px -10px;
+}
+
+/* range */
+
+.form-range {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 94px;
+  width: 207px;
+}
+
+.input-range {
+  margin: 0;
+}
+
+.range-cost {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 16px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 188px;
+  height: 4px;
+  background-color: #cccccc;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #ffffff;
+
+  cursor: pointer;
+
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  border: 8.35px solid #c29974;
+}
+
+/* checkbox */
+
+.form-checkbox {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 124px;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 15px;
+}
+
+.checkbox_checker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 10px;
+  width: 19px;
+  height: 19px;
+
+  border: 2px solid #c29974;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.checkbox-wrapper input:checked ~ .checkbox_checker::before {
+  content: "";
+  background-image: url(../../img/check.png);
+
+  background-color: #ffffff;
+
+  width: 15px;
+  height: 15px;
+}
+
+/* radio */
+
+.form-radio {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 69px;
+}
+
+.radio-wrapper {
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 12px;
+}
+
+.radio_checker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+
+  border-radius: 10px;
+  border: 2px solid #c29974;
+  box-sizing: border-box;
+}
+
+.radio-wrapper input:checked ~ .radio_checker::before {
+  content: "";
+
+  background-color: #c29974;
+
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  border: none
+}
+
+/* amount */
+
+.form-amount {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 60px;
+}
+
+.amount-item {
+  display: flex;
+  align-items: center;
+}
+
+.amount_checker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80px;
+  height: 35px;
+  border: none;
+
+  background-color: #ffffff;
+
+  cursor: pointer;
+}
+
+.amount-wrapper input:checked ~ .amount_checker {
+  content: "";
+
+  background-color: #f3d0db;
+
+  width: 80px;
+  height: 35px;
+  border: none;
+}
+
+.amount-wrapper input:active ~ .amount_checker {
+  content: "";
+
+  background-color: #eddeeb;
+
+  width: 80px;
+  height: 35px;
+  border: none;
+}
+
+/* submit */
+
+.form-submit {
+  margin-top: 37px;
+}
+
+
+/* toys-product */
+
+.toys-content {
+  margin: 60px 0;
+}
+
+.toys-product {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+
+  height: 1014px;
+}
+
+.toys-product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 497px;
+}
+
+.img-block {
+  display: inline-block;
+  cursor: pointer;
+
+  width: 380px;
+  height: 385px;
+}
+
+.back-1 {
+  background-image: url("../../img/SHARKY_BEAN_BAG_CHAIR_COVER.png");
+}
+
+.back-2 {
+  background-image: url("../../img/BRASS_DECO_FRAMES.png");
+}
+
+.back-3 {
+  background-image: url("../../img/CIBO_FULL_APRON.png");
+}
+
+.back-4 {
+  background-image: url("../../img/GATCHA_GATCHA_GUMBALL_MACHINE.png");
+}
+
+.back-5 {
+  background-image: url("../../img/CHRISTMAS_ADVENT_SCENTED_CANDLE.png");
+}
+
+.back-6 {
+  background-image: url("../../img/TANGLE_SPINNING_TEA_LIGHT.png");
+}
+
+.link-block {
+  display: none;
+  position: relative;
+  top: 89px;
+  left: 87px;
+}
+
+.img-block:hover .link-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  width: 207px;
+  height: 207px;
+
+  background-color: #e5eaf8;
+  opacity: 0.9;
+}
+
+.img-block:focus .link-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  width: 207px;
+  height: 207px;
+
+  background-color: #e5eaf8;
+  opacity: 0.67;
+}
+
+.toys-description-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 28.52px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #1e0606;
+
+  text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.toys-product-name {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #1e0606;
+
+  margin: 0;
+  padding-top: 30px;
+}
+
+.toys-product-price {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #1e0606;
+
+  margin: 0;
+  padding-top: 15px;
+}
+
+.toys-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 50px;
+  max-width: 1174px;
+}
+
+.toys-page-list {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  padding-inline-start: 0;
+  width: 234px;
+}
+
+.toys-page-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19.5px;
+
+  color: #000000;
+}
+
+.toys-page-link:hover {
+  opacity: 0.5;
+}
+
+.toys-page-link:active {
+  opacity: 0.5;
+}
+
+.current-link {
+  color: #c29974;
+}
